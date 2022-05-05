@@ -14,7 +14,7 @@ https://designshift.ca/apps/atem-tally
 2. Clone this project
 
     ```
-    git clone git@github.com:tgalis/atem-tally-pi-reverse-led-polarity
+    git clone git@github.com:tgalis/tally-pi-reverse-led-polarity
     ```
 
 3. Install all required packages
