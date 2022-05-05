@@ -13,8 +13,8 @@ const { v4: uuidv4 } = require('uuid');
 const ifaces = os.networkInterfaces();
 const sessionio = require('socket.io')(server);
 
-const programLed = new Gpio(config.programGpio, 'out');
-const previewLed = new Gpio(config.previewGpio, 'out');
+const programLed = new Gpio(config.programGpio, 'low');
+const previewLed = new Gpio(config.previewGpio, 'low');
 
 var localStorage = new LocalStorage('./tmp');
 
